@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventide H3000 Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+        }
+
+        .container {
+            background: #fff;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 16px;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+        }
+
+        button {
+            margin-top: 24px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .status {
+            margin-top: 16px;
+            color: #007700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Eventide H3000 Editor</h2>
+        <div style="display: flex; gap: 32px; align-items: flex-end;">
+            <div style="flex: 1;">
+                <label for="midi-output">MIDI Output Device:</label>
+                <select id="midi-output"></select>
+            </div>
+            <div style="flex: 1;">
+                <label for="bank-mode">Bank Select Mode:</label>
+                <select id="bank-mode">
+                    <option value="nrpn">NRPN</option>
+                    <option value="sysex">SysEx</option>
+                </select>
+            </div>
+        </div>
+
+        <label for="algorithm">Algorithm:</label>
+        <select id="algorithm"></select>
+
+        <label for="search">Search Preset Name:</label>
+        <input type="text" id="search" placeholder="Type to search...">
+
+        <div>
+            <label for="preset-list">Select Preset:</label>
+            <select id="preset-list" size="10" style="width:100%"></select>
+        </div>
+        <div style="display: flex; align-items: baseline">
+            <input type="checkbox" id="show-favorites" style="width:auto" />
+            <label for="show-favorites">Show only favorites</label>
+        </div>
+        <div style="display: flex; gap: 16px; align-items: center">
+
+            <button id="send">Send Preset Change</button>
+            <button id="toggle-favorite">Add Favorite</button>
+        </div>
+        <div class="status" id="status"></div>
+        <div id="algorithm-params-panel"
+            style="display:none; margin-top:24px; background:#f9f9f9; border-radius:8px; padding:16px; box-shadow:0 1px 4px rgba(0,0,0,0.05);">
+            <h3 id="algorithm-params-title" style="margin-top:0;">Algorithm Parameters</h3>
+            <form id="algorithm-params-form"></form>
+        </div>
+    </div>
+    <script src="algorithm-parameters.js"></script>
+    <script src="preset-data.js"></script>
+    <script src="preset-select.js"></script>
+</body>
+
+</html>
