@@ -41,6 +41,13 @@ function showAlgorithmParamsPanel(algorithm) {
         };
         paramDiv.appendChild(label);
         paramDiv.appendChild(input);
+
+        const rangeLabel = document.createElement('div');
+        rangeLabel.textContent = `min: ${param.minVal}, max: ${param.maxVal}`;
+        rangeLabel.style.fontSize = '0.8em';
+        rangeLabel.style.color = '#666';
+        paramDiv.appendChild(rangeLabel);
+
         rowDiv.appendChild(paramDiv);
     });
     panel.style.display = 'block';
