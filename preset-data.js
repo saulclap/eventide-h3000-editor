@@ -219,7 +219,7 @@ const PRESETS = [
   {
     "number": "162",
     "name": "COOL PRES",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Complex but warm delays. Dynamically affected by input."
   },
   {
@@ -303,13 +303,13 @@ const PRESETS = [
   {
     "number": "176",
     "name": "GTR OFF STAGE L",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "If you use a stereo stage setup, send Left output to left cabinet and Right to right. A person standing in the middle will hear the guitar off to the left of the stage, when the balance is set properly. Experiment with settings and position of cabinets."
   },
   {
     "number": "177",
     "name": "GTR OFF STAGE R",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Compliment of GTR OFF STAGE L."
   },
   {
@@ -363,7 +363,7 @@ const PRESETS = [
   {
     "number": "186",
     "name": "MIGHTY DUCK",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A delay that swells up when signal is removed. It 'ducks ' out of the way of a solo."
   },
   {
@@ -387,7 +387,7 @@ const PRESETS = [
   {
     "number": "190",
     "name": "SHOULDER PHONE",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Put the phone to your shoulder, this is what it sounds like."
   },
   {
@@ -429,7 +429,7 @@ const PRESETS = [
   {
     "number": "197",
     "name": "SON OF KAMIKAZE",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Delays that dive after a phrase stops and input drops below threshold. Scary."
   },
   {
@@ -879,13 +879,13 @@ const PRESETS = [
   {
     "number": "273",
     "name": "ABOUT YOU VIBD",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Smooth vibrato with panning."
   },
   {
     "number": "274",
     "name": "CHORWASHdual",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Long delays with thickener that cut their feedback with next input signal, cleaning up the wash of delays."
   },
   {
@@ -945,7 +945,7 @@ const PRESETS = [
   {
     "number": "284",
     "name": "LONG LEAD PING",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Ducking, ping-pong delay that goes from side to side."
   },
   {
@@ -963,7 +963,7 @@ const PRESETS = [
   {
     "number": "288",
     "name": "3D DELAY LEFT",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Delay with off-the-speaker left image."
   },
   {
@@ -981,31 +981,31 @@ const PRESETS = [
   {
     "number": "291",
     "name": "3D DUCKY DELAYS",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Cave-like delays way off the left speaker."
   },
   {
     "number": "292",
     "name": "3D DUAL DUCK DLY",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Another Eventide first - 3D Ducking taps."
   },
   {
     "number": "293",
     "name": "3D HAAS PAN",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A manual-close delay manipulation w/ pan."
   },
   {
     "number": "294",
     "name": "FAR LEFT",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Dry processing to pan input off left speaker."
   },
   {
     "number": "295",
     "name": "FAR RIGHT",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Ditto."
   },
   {
@@ -1455,7 +1455,7 @@ const PRESETS = [
   {
     "number": "373",
     "name": "DAVES SPIN",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "An improved spinning-speaker-cabinet simulator."
   },
   {
@@ -2175,25 +2175,25 @@ const PRESETS = [
   {
     "number": "496",
     "name": "MOON TURN TIDES",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Long delay that falls in pitch and time signal is removed."
   },
   {
     "number": "497",
     "name": "SMOOTH DELAYS",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Slow, attacking delays with a lil' ducking."
   },
   {
     "number": "498",
     "name": "GIGUNDO CHORUS",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Use on vocal chorus to enlarge and thicken."
   },
   {
     "number": "499",
     "name": "KAMIKAZE DELAYS",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "New, distorted delays that dive with signal."
   },
   {
@@ -3951,595 +3951,595 @@ const PRESETS = [
   {
     "number": "800",
     "name": "allpass detune",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Uses two detuners in series to give a unique, reverb-like chorus."
   },
   {
     "number": "801",
     "name": "anti-duck feedback",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Dual delays that feedback only while audio is present."
   },
   {
     "number": "802",
     "name": "awesome flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Two flangers in series give some super notches with pitch detuning on the output."
   },
   {
     "number": "803",
     "name": "awesome knob",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The awesome flanger with manual control: (the knob) use this to manually sweep the flanger."
   },
   {
     "number": "804",
     "name": "band compress",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A fixed 21 dual-band compressor."
   },
   {
     "number": "805",
     "name": "band flip",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "This patch splits the input signal into two bands, a high band and a low band. The output continuously crossfades between these two bands."
   },
   {
     "number": "806",
     "name": "bandsplit delay",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Splits input signal into two bands and passes each band through a separate delay line. The low band goes to the left output channel and the high band to the right."
   },
   {
     "number": "807",
     "name": "boing",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A strange, triggered, pitch mutilation."
   },
   {
     "number": "808",
     "name": "bpm panner",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "An autopanner with the pan rate controlled by the BPM setting."
   },
   {
     "number": "809",
     "name": "bpm trips and qtr",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Beat-per-minute triplets on one side, quarter note on the other."
   },
   {
     "number": "810",
     "name": "bpm trip pan",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Beat-per-minute triplets feeding an autopanner."
   },
   {
     "number": "811",
     "name": "bpm x-fed duck",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two ducked delays adjusted in beats-per-minute. The output of delay 1 feeds back into the input of delay 2 and vice-versa."
   },
   {
     "number": "812",
     "name": "chorus/duck trm",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Detune chorus to the left and right and a ducked, tremolo delay in the center."
   },
   {
     "number": "813",
     "name": "chorus/duck dly",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A detuned chorus and ducked delays."
   },
   {
     "number": "814",
     "name": "chorus/pan dly",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Pitch detuning on the left and right with a dry, autopanned repeating delay."
   },
   {
     "number": "815",
     "name": "chorus room",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A reverb-like chorus."
   },
   {
     "number": "816",
     "name": "compress 21",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A fixed 2:1 compressor. Use env1 parameters to control the compressor."
   },
   {
     "number": "817",
     "name": "detuned space",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Detuners arranged to give a small-room sound."
   },
   {
     "number": "818",
     "name": "detune darkly",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Detuning with control over high-frequency rolloff."
   },
   {
     "number": "819",
     "name": "dual long delay",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two independent delay loops. Use delay controls to change delay and feedback."
   },
   {
     "number": "820",
     "name": "dual duck delay",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two independent delay loops with gain ducking. Use delay controls to change delay and feedback. Use envelope controls to adjust gain ducking."
   },
   {
     "number": "821",
     "name": "dual panners",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two independent autopanners."
   },
   {
     "number": "822",
     "name": "dual tremolo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two tremolos, with delays."
   },
   {
     "number": "823",
     "name": "ducked 'verb",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A chorused, reverb-like effect that ducks with the input."
   },
   {
     "number": "824",
     "name": "dynamic feedback",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Dual delay loops with lowpass filters in the feedback loop. The filter frequencies are modulated by the input envelope to give a downward sweep to the feedback."
   },
   {
     "number": "825",
     "name": "dynamic flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "The input level controls the amount of feedback in this two-voice flanger. Higher input levels give a more resonant flange."
   },
   {
     "number": "826",
     "name": "dynamic tremolo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Tremolo, with the rate controlled by the input level. The output is detuned to give a stereo, chorus effect."
   },
   {
     "number": "827",
     "name": "envelope detune",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A stereo detuner with dynamic control of the detune amount. Greater input levels increase or decrease the amount detuning."
   },
   {
     "number": "828",
     "name": "envelope filter",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "That classic, funky sound. This uses both filter 1 and 2. Use env1 attack and env1 decay times to control the envelope response."
   },
   {
     "number": "829",
     "name": "envelope flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A two-voice flanger with the envelope sweeping the delay."
   },
   {
     "number": "830",
     "name": "env filter/slap",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Envelope filter into a slap delay."
   },
   {
     "number": "831",
     "name": "env filter/verb",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Envelope filter into a cheap reverb."
   },
   {
     "number": "832",
     "name": "envelope pan",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Pan position varies with input signal level. Higher levels are panned left and lower levels are panned right. Use env 1 controls to set attack and decay times."
   },
   {
     "number": "833",
     "name": "ethereal",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A very watery, haunting reverb."
   },
   {
     "number": "834",
     "name": "ethereal logic",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The ethereal reverb modulated with a square wave."
   },
   {
     "number": "835",
     "name": "etherpan",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The ethereal reverb followed by an autopanner."
   },
   {
     "number": "836",
     "name": "ethertrem",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The ethereal reverb feeding a tremolo."
   },
   {
     "number": "837",
     "name": "exponential",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Four chorused, delay taps with exponential spacing. Use BPM to set the amount of delay."
   },
   {
     "number": "838",
     "name": "filter sweep",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A funky, triggered, filter sweep. The input signal triggers the sweep. To set the trigger level, adjust LFO 1 threshold."
   },
   {
     "number": "839",
     "name": "flange pan",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Dual autopanners with delay modulation."
   },
   {
     "number": "840",
     "name": "flutter",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A more intense, dynamic tremolo."
   },
   {
     "number": "841",
     "name": "funky squares",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A pair of highly resonant, square-wave, modulated filters."
   },
   {
     "number": "842",
     "name": "fuzz/chorus",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A fuzz box feeding a detuned chorus. The detune is right and left, with dry distortion in the center."
   },
   {
     "number": "843",
     "name": "fuzz/clean chrs",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Fuzz in the center with a clean-pitch detune left and right."
   },
   {
     "number": "844",
     "name": "fuzz/eq/comp",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A 21 compressor precedes the distortion. Also has two bands of eq and independent left/right channel delays. Adjust filter 1 and 2 to control eq."
   },
   {
     "number": "845",
     "name": "fuzz/eq/rotary",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Fuzz into a rotating speaker simulation."
   },
   {
     "number": "846",
     "name": "fuzz/eq/tremolo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Fuzz into a tremolo."
   },
   {
     "number": "847",
     "name": "fuzz-head",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Super, high-gain fuzz with resonant overtones."
   },
   {
     "number": "848",
     "name": "gated ghost",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The ethereal reverb followed by a noise gate. Use the envelope follower parameters to adjust the gate."
   },
   {
     "number": "849",
     "name": "gated multitap",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A chorused, multi-tap delay followed by a noise gate."
   },
   {
     "number": "850",
     "name": "haas panner",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "An autopanner that varies the delay to the left and right channels to enhance the realism of the panning effect."
   },
   {
     "number": "851",
     "name": "Haas pan/manual",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A manual panner that varies the delay to the left and right channels to enhance the realism of the panning effect."
   },
   {
     "number": "852",
     "name": "hi->efx lo->noefx",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A frequency-dependent gate that lets the high notes into a chorus delay effect. Use cutoff1 and cutoff2 to adjust the crossover point."
   },
   {
     "number": "853",
     "name": "high->lft low->rt",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A frequency-dependent gate that steers the high notes to the left channel and the low notes to the right channel. Use cutoff1 and cutoff2 to adjust the crossover point."
   },
   {
     "number": "854",
     "name": "knob zippers",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Use the knob to control delay time, giving a zipper effect."
   },
   {
     "number": "855",
     "name": "manual flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Use the knob to flange. This is a subtle version, try \"awesome knob\" (#803) or \"rich flange/man\" (#872) for more intense flanging."
   },
   {
     "number": "856",
     "name": "midi efx rack",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "This is set up to use with a MIDI controller like the MIDI mitigator. Each parameter of this patch is assigned to a different MIDI controller. This patch gives you a pair of ducked, BPM delays in parallel with a pitch-detuning chorus."
   },
   {
     "number": "858",
     "name": "overdub loop",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A long loop with delay modulation that overdubs without overload. Use delay 1 to control the length of the loop."
   },
   {
     "number": "859",
     "name": "overdub/detune",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "An overdubbing loop like above, except with detuning on the left and right outputs. The dry loop output is panned center. Also, this patch has BPM control over the loop length."
   },
   {
     "number": "860",
     "name": "overdub/tremolo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "An overdubbing loop with chorus and tremolo. BPM controls the loop length. The chorus is panned left and right. The tremolo is panned center."
   },
   {
     "number": "861",
     "name": "overdub dual",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Dual overdubbing delay loops with knob modulation of the delay times."
   },
   {
     "number": "862",
     "name": "panning bands",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Dual autopanners fed by fixed bandpass filters. Use filter 1 and 2 parameters to adjust the characteristics of the bands."
   },
   {
     "number": "863",
     "name": "panning delays",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Dual delays, each with its own autopanner."
   },
   {
     "number": "864",
     "name": "panning detune",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "An autopanner with the left and right channels detuned."
   },
   {
     "number": "865",
     "name": "pan into delays",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "An autopanner that feeds a cross-fed pair of delays."
   },
   {
     "number": "866",
     "name": "panner",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Autopan using a frequency-modulated oscillator."
   },
   {
     "number": "867",
     "name": "pan squarely",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Autopan with a square-wave oscillator."
   },
   {
     "number": "868",
     "name": "ping-pong",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A ping-pong delay with controllable high cut."
   },
   {
     "number": "869",
     "name": "ping-pong duck",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Like above, with ducking on the delays. Use envelope controls to adjust ducking parameters."
   },
   {
     "number": "870",
     "name": "quivering echo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A uniquely modulated delay. Use BPM to adjust delays and modulation."
   },
   {
     "number": "871",
     "name": "rich flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A flanger built with two delays and cross-coupled feedback."
   },
   {
     "number": "872",
     "name": "rich flange/man",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "The same flanger as above, but this one has manual control."
   },
   {
     "number": "873",
     "name": "rich rhythm",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A very diffuse, chorused pair of repeating delays. Use BPM to set the tempo."
   },
   {
     "number": "874",
     "name": "sine flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A very smooth flange that uses a sine wave to sweep the delays."
   },
   {
     "number": "875",
     "name": "slap center",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Detuned chorus on left and right with a dry slap in the middle."
   },
   {
     "number": "876",
     "name": "slide into tune",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The input envelope bends the pitch upward. Use envelope controls to vary the dynamics of the pitch bend."
   },
   {
     "number": "877",
     "name": "speaker spinner",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A rotating speaker simulation. Even takes time to come up to speed."
   },
   {
     "number": "878",
     "name": "square chorus",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Pitch, detuning modulated by a square wave."
   },
   {
     "number": "879",
     "name": "stereo detune",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Splits stereo signal into L+R and L-R. In addition to controlling the balance of L+R and L-R, L+R can be detuned."
   },
   {
     "number": "880",
     "name": "stereo enhance",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "This patch plays around with the L-R component of a stereo mix. Delay and EQ of the L-R signal are controllable with softknobs."
   },
   {
     "number": "881",
     "name": "stereo widen",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Adds delay to L+R to give wider center image."
   },
   {
     "number": "882",
     "name": "strange loop",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Output switches between two different delay loops, giving an interesting, rhythmic effect."
   },
   {
     "number": "883",
     "name": "swell",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "A gain swell triggered by the audio input. Use thresh1 to adjust the trigger threshold."
   },
   {
     "number": "884",
     "name": "swell reverb",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "The ethereal reverb modulated by a triggered, amplitude swell."
   },
   {
     "number": "885",
     "name": "swell taps",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A multi-tap delay gated with a triggered LFO. Use LFO thresh to adjust trigger threshold."
   },
   {
     "number": "886",
     "name": "throaty",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "An envelope flanger based on the awesome flanger."
   },
   {
     "number": "887",
     "name": "tremolo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A stereo tremolo with independent left/right delay control. Use delay 1 and delay 2 parameters to set delays."
   },
   {
     "number": "888",
     "name": "triggered air",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "A rich, chorused reverb whose output is gated by a triggered LFO. The left input triggers the swell. Use thresh1 to set the trigger threshold."
   },
   {
     "number": "889",
     "name": "triggered flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Audio input triggers flange sweep. Thresh1 adjusts the trigger threshold."
   },
   {
     "number": "890",
     "name": "triggered pan",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Audio input alternately triggers a pan to the left, then to the right. Thresh1 controls the trigger threshold."
   },
   {
     "number": "891",
     "name": "trig pan r->l->r",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Audio trigger pans right to left to right. Thresh1 controls the trigger threshold."
   },
   {
     "number": "892",
     "name": "true flange",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Thru-zero flanging. This uses two delays to get flanging that actually passes through zero delay."
   },
   {
     "number": "893",
     "name": "undulator",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "Tremolo on top of a multi-tap delay."
   },
   {
     "number": "894",
     "name": "vibrato",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Vibrato with controllable delay."
   },
   {
     "number": "895",
     "name": "whaaat-a-panner",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two bands that pan and change cutoff frequency."
   },
   {
     "number": "896",
     "name": "whoopie",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Very strange envelope-modulated noises."
   },
   {
     "number": "897",
     "name": "wide tremolo",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Tremolo with different delay on left and right gives a nice, stereo effect."
   },
   {
     "number": "898",
     "name": "wilting phrase",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|TWO",
     "description": "After a phrase is played, the pitch drops."
   },
   {
     "number": "899",
     "name": "x-coupled ducks",
-    "algorithm": "MOD FACTORY",
+    "algorithm": "MOD FACTORY|ONE",
     "description": "Two ducked delays with cross-coupled feedback."
   },
   {
@@ -4718,6 +4718,5 @@ const algorithmNumbers = {
 	"PHASER": 119,
 	"STUDIO SAMPLER": 120,
 	"MOD FACTORY|ONE": 122,
-	"MOD FACTORY": 122, // Some entries use "MOD FACTORY|ONE", others just "MOD FACTORY"
 	"MOD FACTORY|TWO": 123,
 }; 
