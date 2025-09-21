@@ -1071,6 +1071,13 @@ const ALGORITHM_PARAMETERS = {
       "unit": "pct"
     },
     {
+      "nRPN": 7,
+      "name": "Repeat",
+      "minVal": 0.0,
+      "maxVal": 0.0,
+      "unit": ""
+    },
+    {
       "nRPN": 4,
       "name": "Glide Speed",
       "minVal": 0.0,
@@ -3713,8 +3720,8 @@ const ALGORITHM_PARAMETERS = {
     {
       "nRPN": 27,
       "name": "Velocity Breakpoint",
-      "minVal": 0.0,
-      "maxVal": 127.0,
+      "minVal": -100.0,
+      "maxVal": 100.0,
       "unit": "amt"
     },
     {
